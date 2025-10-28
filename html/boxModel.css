@@ -1,0 +1,24 @@
+body{
+    background-color:lightcoral ;
+
+}
+.h1{
+    background-color: lime;
+    height: 200px;
+    width: 200px;
+    display: inline;
+}
+p{
+    background-color: aqua;
+    height:200px ;
+    width: 250px;
+    display:inline;
+
+
+}
+span{
+    background-color: tomato;
+    height:200px ;
+    width:250ox;s
+    display: block;
+}
