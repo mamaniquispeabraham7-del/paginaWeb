@@ -1,0 +1,45 @@
+body{
+	background-color: lightgrey;
+}
+[class^="box-"]{
+	box-sizing: border-box;
+	background-color: tomato;
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+}
+p{
+	background-color: lime;
+}
+.box-1{
+	/*propiedades del margin*/
+	/*margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 30px;
+	margin-bottom: 150px;*/
+	/*shorthand*/
+	/*margin: 50px 30px 150px 100px;*/
+	/*margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;*/
+	/*shorthand como loop*/
+	/*margin: 50px 100px */
+	margin: 50px 100px 200px
+}
+.box-2{
+	margin-top: -250px
+}
+.box-3{
+	margin: auto;
+}
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid blue;
+}
+.item{
+	border: 2px solid blue;
+	margin-left: -80px;
+	margin-right: -80px;
+}

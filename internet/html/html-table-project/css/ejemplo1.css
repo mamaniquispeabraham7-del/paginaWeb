@@ -1,0 +1,17 @@
+:root
+{
+    --colorF: limegreen;
+    
+}
+body{
+    /*  selector despues el corchetes el estilo que le esstams dando al selecor en este caso al boy*/
+    background-color:var(--colorF) ;
+    margin: 60px;
+}
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: initial, Helvetica, sans-serif;
+    padding: 30px;   
+}

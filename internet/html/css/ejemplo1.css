@@ -1,0 +1,12 @@
+root{
+	--colorf: limegreen
+}
+body{
+	background-color: aqua;
+	margin: 30px;
+}
+hi{
+	background-color: black;
+	color: aqua;
+	padding: 15px;
+}

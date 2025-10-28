@@ -1,0 +1,50 @@
+body{
+    background-color:lightcoral ;
+
+}
+[class^="box"]{
+    box-sizing: border-box;
+    background-color: tomato;
+    width:200px ;
+    height:200px ;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+
+}
+.box-1{
+    border: 30px dotted green;
+}
+/*ejemplo de cos shortthand del border*/
+.box-2{
+    border-style: dashed;
+    border-width: 10px;
+    border-color: blueviolet;
+}
+.box-3{
+    border-bottom-width: 10px;
+    border-right-width: 10px;
+    border-top-width: 10px;
+    border-left-width: 10px;
+
+    border-bottom-style:double ;
+    border-left-style:groove  ;
+    border-right-style: solid ;
+    border-top-style:dotted ;
+
+    border-left-color:red ;
+    border-top-color:limegreen ;
+    border-bottom-color: darkcyan;
+    border-right-color:aqua ;
+
+
+}
+
+.box-4{
+    border-style: dashed dashed dashed dashed ;
+    border-width: 20px 20px 10px 15px ;
+    border-color: blueviolet red limegreen darkcyan;
+
+
+
+}

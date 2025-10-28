@@ -1,0 +1,44 @@
+body{
+	background-color: lightgrey;
+}
+[class^="box"]{
+	box-sizing: border-box;
+	background-color: tomato;
+	width: 200px;
+	height: 200px;
+	padding: 50px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box-1{
+	background-clip: padding-box;
+	border:30px dotted green;
+}
+/*ejemplos con los shorthand del border*/
+.box-2{
+	border-style: dashed;
+	border-width: 20px;
+	border-color: blueviolet;
+}
+.box-3{
+	border-bottom-width: 10px;
+	border-right-width: 40px;
+	border-top-width: 30px;
+	border-left-width: 20px;
+	/*estilo*/
+	border-bottom-style: double;
+	border-left-style: groove;
+	border-right-style: solid;
+	border-top-style: dotted;
+	/*color*/
+	border-left-color: red;
+	border-top-color: limegreen;
+	border-bottom-color: darkcyan;
+	border-right-color: aqua;
+}
+.box-4{
+	border-style: dotted solid double groove ;
+	border-width: 30px 40px 10px 20px;
+	border-color: limegreen aqua darkcyan red;
+}

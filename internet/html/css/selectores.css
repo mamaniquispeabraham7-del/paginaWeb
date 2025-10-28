@@ -1,0 +1,51 @@
+/*SELECTOREW CENCILLOS*/
+/*SELECTOR UNIVERSAL*/
+*{
+	color: green;
+	margin: .5em;
+	padding: .3em;
+}
+/*SELECTOR DE TIPO ELEMENTO*/
+body{
+	background-color: black;
+}
+h1{
+	background-color: deepskyblue;
+	color: black;
+}
+p{
+	background-color: tomato;
+	color: black;
+}
+/*Selector de border-collapse: */
+.t3{
+	background-color: deeppink;
+	color: white;
+}
+.center{
+	text-align: center;
+}
+.parrafo{
+	background-color: dodgerblue;
+	color: bisque;
+}
+.bol{
+	font-weight: bold;
+}
+/*SELECTOR POR ID*/
+#selectorid{
+	background-color: lime;
+	color: blue;
+}
+/*SELECTORES COMPUESTOS*/
+/*agrupados*/
+.tSelecA, .pSA{
+	color: blue
+}
+/*selectores descendientes*/
+.lista .fin{
+	color: red
+}
+/*continuar con la tarea enviado*/
+
+

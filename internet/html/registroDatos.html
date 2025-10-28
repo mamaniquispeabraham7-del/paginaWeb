@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Rgistro de Datos</h1>
+    <form>
+        <fieldset>
+            <legend> Datos de Usuario</legend>
+            <p><label>Usuario<input type="text" name="" id=""></label></p>
+            <p><label>Password<input type="password" ></label></p>
+            <p><label>Ingresa nuevamente tu Password<input type="password" ></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p><label>Nombre Completo<input type="text"></label></p>
+            <p><label>Email<input type="email" placeholder="nombre@inof.com" ></label></p>
+            <p><label>Fecha de Nacimiento<input type="date"></label></p>
+            <p><label>Edad<input type="number" ></label></p>   
+        </fieldset>
+        <fieldset>
+            <legend>Pasatiempos</legend>
+            <p><label>Leer<input type="checkbox"></label></p>
+            <p><label>Bailar<input type="checkbox" ></label></p>
+            <p><label>Cantar<input type="checkbox"></label></p>
+            <p><label>Cine<input type="checkbox" ></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <p><label>Hombre<input type="radio"></label></p>
+            <p><label>Mujer<input type="radio" ></label></p>
+            <p><label>No Especificar<input type="radio" name="sexo"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tu Pais</legend>
+            <select name="" id="">
+                <option value="">Seleccionar</option>
+                <option value="bo">Bolivia</option>
+                <option value="pe">Peu</option>
+                <option value="cl">Chile</option>
+                <option value="br">Brasil</option>
+            </select>
+            <select name="" id="">
+                <option value="">Seleccionar</option>
+                <optgroup label >America
+                <option value="bo">Bolivia</option>
+                <option value="pe">Peru</option>
+                <option value="cl">Chile</option>
+                <option value="br">Brasil</option>
+                </optgroup>
+                <optgroup label="Europa">
+                <option value="">Espana</option>
+                <option value="br">Brasil</option>
+
+                </optgroup>
+            </select>
+            <textarea placeholder="Ecribe tu comentario" cls="20" rows="4"></textarea>
+        </fieldset>
+        <fieldset> <legend>Tipos de Fechas y tiempo</legend> <p><label>Fecha con rago<input type="date" min="2022-03-14" max="2022-03-20"></labelx</p> <p><label>Fecha y Hora<input type="datetime" placeholder="10-03-2022 22:15"></labelx</p> <p><label Fecha y Hora<input type="datetime-local" >/labelx</p> <p><label>Mes y añoxinput type="month" ></1abel></p> <p><label>Semana y año<input type="week" ></labelx</p> <p><label>Hora<input type="time" ></labelx</p> </fieldset> <fieldset> <legend>Numeros</legend> <p><label>Numero con ragos<input type="number" min="5" max="30" step="5"></labelx</p> <p><label>Numero Tipo ragos<input type="range" min="5" max="30" step="5"></labelx</p> </fieldset> <fieldset> <legend>Otros imputs</legend> <p><label>Selecciona un archivo<input type="file" ></labelx</p> <p><label>Selecciona un color<input type="color" ></label></p> </fieldset> <input type="submit">
+    </form>
+</body>
+</html>
